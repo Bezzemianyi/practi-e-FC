@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.table {
+  border-collapse: collapse; /* Убирает дублирование границ между ячейками */
+}
+.data {
+  padding: 3px 15px;
+  border: 1px solid black;
+  font-family: "Roboto";
+  text-align: center;
+}
+.data::first-letter {
+  text-transform: uppercase;
+}
+
+.rowsData:nth-child(2n) {
+  background-color: lightgrey;
+}
+.nameCals {
+  border: 1px solid black;
+  font-family: "Roboto";
+  color: white;
+  background-color: rgb(39, 39, 39);
+  padding: 3px 15px;
+}
