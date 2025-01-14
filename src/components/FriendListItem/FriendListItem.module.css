@@ -1,0 +1,15 @@
+.name {
+  font-weight: bold;
+}
+
+.status {
+  margin-left: auto;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}

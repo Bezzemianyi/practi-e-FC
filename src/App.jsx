@@ -1,6 +1,9 @@
 import Profile from "./components/Profile/Profile";
 import userData from "./userData.json";
 import styles from "./App.module.css";
+import friends from "./friend.json";
+import FriendList from "./components/FriendList/FriendList";
+
 const App = () => {
   return (
     <div>
@@ -11,6 +14,7 @@ const App = () => {
         image={userData.avatar}
         stats={userData.stats}
       />
+      <FriendList friends={friends} />
     </div>
   );
 };
