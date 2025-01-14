@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.card {
+  border: 2px solid black;
+  width: 200px;
+  padding-top: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  border-radius: 8px;
+  overflow: hidden;
+}
+.top {
+  text-align: center;
+}
+.avatar {
+  background-color: gray;
+  border-radius: 50%;
+  width: 100px;
+}
+.name {
+  font-family: "Roboto";
+  font-weight: 600;
+}
+.tag {
+  font-family: "Roboto";
+  color: gray;
+  margin-bottom: 10px;
+}
+.location {
+  font-family: "Roboto";
+  color: gray;
+  margin: 0;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  background-color: lightgrey;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+.item {
+  text-align: center;
+  border: 1px solid gray;
+  flex: 1;
+}
+.item:nth-child(2n + 1) {
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+}
+.item:nth-child(2n) {
+  border-bottom: none;
+}
+.text {
+  font-family: "Roboto";
+  display: block;
+}
+.count {
+  font-family: "Roboto";
+  font-weight: 500;
+}
