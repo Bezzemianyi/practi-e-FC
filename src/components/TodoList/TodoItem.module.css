@@ -1,0 +1,19 @@
+.item {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 6px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.btn {
+  font-size: 32px;
+}
+
+.btn:hover {
+  background-color: blue;
+  color: white;
+  outline: auto;
+}
